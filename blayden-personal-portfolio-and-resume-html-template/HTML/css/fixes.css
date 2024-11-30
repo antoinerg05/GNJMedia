@@ -1,0 +1,19 @@
+@media (max-width: 1920px) {
+    .menu__list {
+        display: flex;
+        justify-content: center; /* Centrer les éléments */
+        align-items: center; /* Alignement vertical */
+        gap: 20px; /* Espacement entre les items */
+    }
+
+    .menu__item {
+        margin: 0; /* Supprime les marges inutiles */
+    }
+
+    header.header {
+        position: sticky; /* Fixe le menu en haut */
+        top: 0;
+        z-index: 1000; /* Assure qu’il reste au-dessus des autres éléments */
+        background-color: rgba(255, 255, 255, 0.9); /* Optionnel : couleur de fond */
+    }
+}
