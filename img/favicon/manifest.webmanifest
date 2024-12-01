@@ -1,9 +1,9 @@
 {
-  "name": "Blayden - Personal Portfolio & Resume HTML Template",
-  "short_name": "Blayden",
+  "name": "GNJ Média - Experts en Marketing et Création de contenu",
+  "short_name": "GNJ Média",
   "icons": [
-    { "src": "/img/favicon/android-icon-192.png", "type": "image/png", "sizes": "192x192" },
-    { "src": "/img/favicon/android-icon-512.png", "type": "image/png", "sizes": "512x512" }
+    { "src": "img/favicon/android-icon-192x192.png", "type": "image/png", "sizes": "192x192" },
+    { "src": "img/favicon/apple-icon-152x152.png", "type": "image/png", "sizes": "512x512" }
   ],
   "theme_color": "#efefef",
   "background_color": "#efefef",
