@@ -1106,6 +1106,11 @@ blockquote {
   }
 }
 
+.PBold{
+  font-weight: bold;
+  font-style: italic;
+  font-size: calc(1em + 2px);
+}
 
 .btn-line-small {
   -webkit-box-pack: start;
