@@ -1112,7 +1112,10 @@ blockquote {
   background-clip: text;
   -webkit-background-clip: text; /* Nécessaire pour certains navigateurs */
   color: transparent;
+
 }
+
+
 
 @media (max-width: 402px) {
   .btn-texte {
@@ -1274,6 +1277,27 @@ blockquote {
   font: normal var(--font-weight-medium) 1.2rem var(--_font-default);
   color: var(--t-opp-bright);
 }
+.animated-button {
+  display: inline-block;
+  padding: 10px 20px; /* Ajustez les marges internes selon vos besoins */
+  font-size: 16px; /* Taille du texte */
+  font-weight: bold;
+  color: white; /* Couleur du texte */
+  background-color: black; /* Couleur de fond initiale */
+  border: 2px solid black; /* Bordure initiale */
+  border-radius: 5px; /* Bordures arrondies */
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Animation lors du hover */
+.animated-button:hover {
+  background-color: #FFD700; /* Couleur or lors du hover */
+  color: black; /* Texte noir pour contraste */
+  border-color: #FFD700; /* Bordure devient dorée */
+}
+
+
 @media only screen and (min-width: 1200px) {
   .btn-circle-text {
     width: 11rem;
