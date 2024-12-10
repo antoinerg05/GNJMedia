@@ -1106,11 +1106,32 @@ blockquote {
   }
 }
 
-.PBold{
+.PBold {
   font-weight: bold;
-  font-style: italic;
-  font-size: calc(1em + 2px);
+  background: linear-gradient(45deg, #B8860B, #FFD700, #D4AF37, #B8860B);
+  background-clip: text;
+  -webkit-background-clip: text; /* Nécessaire pour certains navigateurs */
+  color: transparent;
 }
+
+@media (max-width: 402px) {
+  .btn-texte {
+    font-size: 14px; /* Réduire légèrement la taille du texte */
+    padding: 8px 12px; /* Ajuster les marges internes */
+    white-space: normal; /* Permettre au texte de passer à la ligne si nécessaire */
+    text-align: center; /* Centrer le texte */
+  }
+}
+@media (max-width: 380px) {
+  .btn-texte {
+    font-size: 12px; /* Réduction supplémentaire de la taille du texte */
+    padding: 6px 10px; /* Réduction des marges internes */
+  }
+}
+
+
+
+
 
 .btn-line-small {
   -webkit-box-pack: start;
