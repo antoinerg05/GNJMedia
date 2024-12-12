@@ -579,7 +579,7 @@ $(function() {
   // --------------------------------------------- //
   // Contact Form Start
   // --------------------------------------------- //
-  $("#contact-form").submit(function() { //Change
+/*  $("#contact-form").submit(function() { //Change
     var th = $(this);
     $.ajax({
       type: "POST",
@@ -596,7 +596,7 @@ $(function() {
       }, 5000);
     });
     return false;
-  });
+  });*/
   // --------------------------------------------- //
   // Contact Form End
   // --------------------------------------------- //
