@@ -927,9 +927,13 @@ a.link-small-160lh {
 @media (min-width: 1440px) and (max-width: 2560px) {
   .stack-item {
     flex: 1 1 calc(25% - 32px); /* Quatre éléments par ligne */
-    /*max-width: calc(25% - 32px);*/
+  }
+
+  .stack-item * { /* Applique la règle à tous les éléments internes */
+    font-size: calc(1rem + (2vw - 20px)); /* Ajustement dynamique de la taille du texte */
   }
 }
+
 
 blockquote {
   font: normal 300 3.2rem/1.4 var(--_font-default);
