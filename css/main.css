@@ -929,21 +929,22 @@ a.link-small-160lh {
     flex: 1 1 calc(25% - 32px); /* Quatre éléments par ligne */
   }
 
-  /* Ajustement spécifique pour les titres */
+  /* Les titres restent à une taille constante */
   .stack-item h1,
   .stack-item h2,
   .stack-item h3 {
-    font-size: calc(2rem + (1vw - 5px)); /* Les titres restent plus grands */
+    font-size: calc(2rem + (1vw - 5px)); /* Les titres restent inchangés */
   }
 
-  /* Ajustement pour le reste du texte */
+  /* Le reste du texte est légèrement plus grand */
   .stack-item p,
   .stack-item span,
   .stack-item li,
   .stack-item div {
-    font-size: calc(1rem + (1vw - 15px)); /* Le texte devient plus petit */
+    font-size: calc(1.2rem + (1vw - 10px)); /* Texte un peu plus grand */
   }
 }
+
 
 
 
