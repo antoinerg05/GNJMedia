@@ -96,7 +96,7 @@
 }
 
 /* defaults */
-@media (prefers-color-scheme: light) {
+/*@media (prefers-color-scheme: light) {
   :root {
     --base: var(--base--light);
     --base-rgb: var(--base-rgb--light);
@@ -114,7 +114,7 @@
     --t-opp-muted: var(--t-opp-muted--light);
     --neutral-bright: var(--neutral-bright--light);
   }
-}
+}*/
 @media (prefers-color-scheme: dark) {
   :root {
     --base: var(--base--dark);
