@@ -644,7 +644,7 @@ h3.light {
 }
 @media only screen and (min-width: 1400px) {
   h3 {
-    font-size: 5.6rem;
+    font-size: 3.6rem;
   }
 }
 @media only screen and (min-width: 1600px) {
@@ -921,6 +921,13 @@ a.link-small-160lh {
   a.link-small-160lh {
     font-size: 1.8rem;
     line-height: 1.6;
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 2560px) {
+  .stack-item {
+    flex: 1 1 calc(25% - 32px); /* Quatre éléments par ligne */
+    max-width: calc(25% - 32px);
   }
 }
 
@@ -5950,6 +5957,12 @@ form textarea:required:valid {
 @media only screen and (min-width: 1400px) {
   .services-stack__descr {
     padding: 4rem 5rem 4.6rem 5rem;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .services-stack__descr {
+    padding: 2.6rem 3rem;
   }
 }
 
