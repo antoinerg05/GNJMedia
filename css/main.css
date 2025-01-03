@@ -929,10 +929,22 @@ a.link-small-160lh {
     flex: 1 1 calc(25% - 32px); /* Quatre éléments par ligne */
   }
 
-  .stack-item * { /* Applique la règle à tous les éléments internes */
-    font-size: calc(1.2rem + (1.5vw - 10px)); /* Ajustement dynamique avec un texte moins petit */
+  /* Ajustement spécifique pour les titres */
+  .stack-item h1,
+  .stack-item h2,
+  .stack-item h3 {
+    font-size: calc(2rem + (1vw - 5px)); /* Les titres restent plus grands */
+  }
+
+  /* Ajustement pour le reste du texte */
+  .stack-item p,
+  .stack-item span,
+  .stack-item li,
+  .stack-item div {
+    font-size: calc(1rem + (1vw - 15px)); /* Le texte devient plus petit */
   }
 }
+
 
 
 
