@@ -927,7 +927,7 @@ a.link-small-160lh {
 @media (min-width: 1440px) and (max-width: 2560px) {
   .stack-item {
     flex: 1 1 calc(25% - 32px); /* Quatre éléments par ligne */
-    max-width: calc(25% - 32px);
+    /*max-width: calc(25% - 32px);*/
   }
 }
 
