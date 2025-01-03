@@ -948,21 +948,23 @@ a.link-small-160lh {
 @media (min-width: 1440px) and (max-width: 2560px) {
   /* Sous-titre (p) */
   #headline .headline__subtitle {
-    font-size: calc(1.4rem + (1vw - 10px)); /* Texte légèrement plus grand et responsive */
+    font-size: calc(2rem + (1.5vw - 10px)); /* Texte bien plus grand */
+    line-height: 1.4; /* Amélioration de l'espacement */
   }
 
   /* Titre principal (h1) */
   #headline .headline__title {
-    font-size: calc(2.5rem + (1vw - 5px)); /* Titre principal reste grand */
-    line-height: 1.2; /* Amélioration de la lisibilité */
+    font-size: calc(4rem + (2vw - 5px)); /* Titre principal nettement plus grand */
+    line-height: 1.1; /* Espacement serré pour un effet visuel fort */
   }
 
   /* Bouton (a) */
   #headline .btn-caption {
-    font-size: calc(1.2rem + (0.5vw - 5px)); /* Taille du texte dans le bouton */
-    padding: 10px 20px; /* Ajout d'espace pour améliorer l'interaction tactile */
+    font-size: calc(1.5rem + (1vw - 5px)); /* Texte du bouton plus imposant */
+    padding: 15px 30px; /* Bouton agrandi pour l'accessibilité et l'esthétique */
   }
 }
+
 
 
 
