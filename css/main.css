@@ -941,7 +941,7 @@ a.link-small-160lh {
   .stack-item span,
   .stack-item li,
   .stack-item div {
-    font-size: calc(1.6rem + (1vw - 10px)); /* Texte un peu plus grand */
+    font-size: calc(1.55rem + (1vw - 10px)); /* Texte un peu plus grand */
   }
 }
 
