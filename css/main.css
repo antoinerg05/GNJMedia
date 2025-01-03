@@ -948,22 +948,24 @@ a.link-small-160lh {
 @media (min-width: 1440px) and (max-width: 2560px) {
   /* Sous-titre (p) */
   #headline .headline__subtitle {
-    font-size: calc(2rem + (1.5vw - 10px)); /* Texte bien plus grand */
-    line-height: 1.4; /* Amélioration de l'espacement */
+    font-size: calc(2.5rem + (2vw - 10px)); /* Texte significativement plus grand */
+    line-height: 1.5; /* Espacement pour une meilleure lisibilité */
   }
 
   /* Titre principal (h1) */
   #headline .headline__title {
-    font-size: calc(4rem + (2vw - 5px)); /* Titre principal nettement plus grand */
-    line-height: 1.1; /* Espacement serré pour un effet visuel fort */
+    font-size: calc(5rem + (3vw - 5px)); /* Titre principal très imposant */
+    line-height: 1.2; /* Espacement optimal pour un effet impactant */
   }
 
   /* Bouton (a) */
   #headline .btn-caption {
-    font-size: calc(1.5rem + (1vw - 5px)); /* Texte du bouton plus imposant */
-    padding: 15px 30px; /* Bouton agrandi pour l'accessibilité et l'esthétique */
+    font-size: calc(2rem + (1.5vw - 5px)); /* Texte du bouton beaucoup plus grand */
+    padding: 20px 40px; /* Bouton agrandi pour une présence visuelle forte */
   }
 }
+
+
 
 
 
