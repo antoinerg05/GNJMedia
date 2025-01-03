@@ -930,9 +930,10 @@ a.link-small-160lh {
   }
 
   .stack-item * { /* Applique la règle à tous les éléments internes */
-    font-size: calc(1rem + (2vw - 20px)); /* Ajustement dynamique de la taille du texte */
+    font-size: calc(1.2rem + (1.5vw - 10px)); /* Ajustement dynamique avec un texte moins petit */
   }
 }
+
 
 
 blockquote {
