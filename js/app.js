@@ -620,16 +620,7 @@ function loadTheme(theme){
   root.setAttribute('color-scheme', `${theme}`);
 };
 
-themeBtn.addEventListener('click', () => {
-  let theme = getCurrentTheme();
-  if(theme === 'dark'){
-    theme = 'light';
-  } else {
-    theme = 'dark';
-  }
-  localStorage.setItem('template.theme', `${theme}`);
-  loadTheme(theme);
-});
+
 
 window.addEventListener('DOMContentLoaded', () => {
   loadTheme(getCurrentTheme());
