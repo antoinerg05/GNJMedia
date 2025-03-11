@@ -965,6 +965,33 @@ a.link-small-160lh {
   }
 }
 
+/* Fix for button display on iPhone 16s and smaller devices */
+@media only screen and (max-width: 428px) {
+  .about-descr__btnholder {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .about-descr__btnholder .btn {
+    width: 90%;
+    max-width: 300px;
+    padding: 12px 15px;
+    text-align: center;
+    white-space: normal;
+    line-height: 1.4;
+  }
+
+  .about-descr__btnholder .btn .btn-caption {
+    display: block;
+    font-size: 16px;
+  }
+}
+
+
+
 
 
 
